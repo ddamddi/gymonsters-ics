@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//GY몬스터즈B Game Schedule//EN
 BEGIN:VEVENT
 SUMMARY:Polaris vs GY몬스터즈B [2026 토요리그 (C조)]
-DTSTAMP:20260325T071659Z
+DTSTAMP:20260325T072323Z
 UID:04f1f6fcd2d2e778@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1681447
@@ -14,7 +14,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:농협캐피탈 나누미야구단 vs GY몬스터즈B [2026 토요
  리그 (C조)]
-DTSTAMP:20260325T071659Z
+DTSTAMP:20260325T072323Z
 UID:4752f76369078199@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1692276
@@ -24,7 +24,7 @@ LOCATION:[서울] 성남중 운동장
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Polaris vs GY몬스터즈B [2026 토요리그 (C조)]
-DTSTAMP:20260325T071659Z
+DTSTAMP:20260325T072323Z
 UID:fb0f48ab1b3a0155@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1692566
@@ -34,7 +34,7 @@ LOCATION:[서울] 성남고 야구장
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GY몬스터즈B vs 리얼위세바세 [2026 토요리그 (C조)]
-DTSTAMP:20260325T071659Z
+DTSTAMP:20260325T072323Z
 UID:637c351e407b8fdb@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702776
@@ -45,7 +45,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:농협캐피탈 나누미야구단 vs GY몬스터즈B [2026 토요
  리그 (C조)]
-DTSTAMP:20260325T071659Z
+DTSTAMP:20260325T072323Z
 UID:fdc9336413ff4275@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702798
@@ -55,7 +55,7 @@ LOCATION:[서울] 성남고 야구장
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GY몬스터즈B vs 팀 사야이 [2026 토요리그 (C조)]
-DTSTAMP:20260325T071659Z
+DTSTAMP:20260325T072323Z
 UID:6574dd84c54a9db7@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702825
@@ -65,7 +65,7 @@ LOCATION:[서울] 성남고 야구장
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:다슬기스 YB vs GY몬스터즈B [2026 토요리그 (C조)]
-DTSTAMP:20260325T071659Z
+DTSTAMP:20260325T072323Z
 UID:414a85f70ef327cf@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702833
@@ -75,7 +75,7 @@ LOCATION:[서울] 성남고 야구장
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:벅스 vs GY몬스터즈B [2026 토요리그 (C조)]
-DTSTAMP:20260325T071659Z
+DTSTAMP:20260325T072323Z
 UID:3c2148e533677035@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702838
@@ -85,7 +85,7 @@ LOCATION:[서울] 성남중 운동장
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GY몬스터즈B vs 스웨인즈 [2026 토요리그 (C조)]
-DTSTAMP:20260325T071659Z
+DTSTAMP:20260325T072323Z
 UID:51e78e00996b6657@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702851
@@ -95,7 +95,7 @@ LOCATION:[서울] 성남고 야구장
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GY몬스터즈B vs 시카고컵스2 [2026 토요리그 (C조)]
-DTSTAMP:20260325T071659Z
+DTSTAMP:20260325T072323Z
 UID:d0bd591e453e6cc8@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702899
@@ -105,7 +105,7 @@ LOCATION:[서울] 성남고 야구장
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:사구홀릭 vs GY몬스터즈B [2026 토요리그 (C조)]
-DTSTAMP:20260325T071659Z
+DTSTAMP:20260325T072323Z
 UID:2277d66ef57d9863@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702936
@@ -115,7 +115,7 @@ LOCATION:[서울] 성남고 야구장
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GY몬스터즈B vs 글로 베어스 [2026 토요리그 (C조)]
-DTSTAMP:20260325T071659Z
+DTSTAMP:20260325T072323Z
 UID:6d8bf7a28b09d268@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702955
