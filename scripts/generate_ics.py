@@ -3,8 +3,6 @@ from __future__ import annotations
 import hashlib
 from dataclasses import dataclass
 from datetime import datetime, date, time, timedelta
-from zoneinfo import ZoneInfo
-
 import re
 from pathlib import Path
 from typing import Iterable
@@ -154,7 +152,7 @@ def parse_korean_datetime(text: str, year: int = 2026):
     hour = int(m.group(3))
     minute = int(m.group(4))
 
-    return datetime(year, month, day, hour, minute, tzinfo=ZoneInfo("Asia/Seoul"))
+    return datetime(year, month, day, hour, minute, tzinfo=KST)
 
 
 def main() -> None:
@@ -164,13 +162,13 @@ def main() -> None:
 
         write_calendar(team_name, games)
 
-    # # simple index stamp for sanity-checking deployments
-    # stamp = datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S %Z")
-    # index_path = OUT_DIR / "index.html"
-    # if not index_path.exists():
-    #     index_path.write_text("<h1>GameOne ICS</h1>", encoding="utf-8")
-    # with index_path.open("a", encoding="utf-8") as f:
-    #     f.write(f"\n<!-- updated: {stamp} -->\n")
+    # simple index stamp for sanity-checking deployments
+    stamp = datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S %Z")
+    index_path = OUT_DIR / "index.html"
+    if not index_path.exists():
+        index_path.write_text("<h1>GameOne ICS</h1>", encoding="utf-8")
+    with index_path.open("a", encoding="utf-8") as f:
+        f.write(f"\n<!-- updated: {stamp} -->\n")
 
 
 if __name__ == "__main__":
