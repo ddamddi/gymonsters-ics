@@ -2,8 +2,8 @@ name: Update ICS
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "5 15 * * *"   # every day 00:05 KST = 15:05 UTC previous day
+  # schedule:
+    # - cron: "5 15 * * *"   # every day 00:05 KST = 15:05 UTC previous day
 
 permissions:
   contents: write
