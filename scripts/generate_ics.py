@@ -3,6 +3,8 @@ from __future__ import annotations
 import hashlib
 from dataclasses import dataclass
 from datetime import datetime, date, time, timedelta
+from zoneinfo import ZoneInfo
+
 import re
 from pathlib import Path
 from typing import Iterable
@@ -117,9 +119,11 @@ def add_event(cal: Calendar, game: Game) -> None:
     ev.add("summary", f"{game.away_team} vs {game.home_team} [{game.league_year} {game.league}]")
 
     # ev.add("dtstamp", datetime.utcnow().strftime("%Y%m%dT%H%M%SZ"))
+    # ev.add("dtstart;TZID=Asia/Seoul", game.game_date)
+    # ev.add("dtend;TZID=Asia/Seoul", game.game_date+timedelta(hours=2))
     ev.add("dtstamp", datetime.utcnow())
-    ev.add("dtstart;TZID=Asia/Seoul", game.game_date)
-    ev.add("dtend;TZID=Asia/Seoul", game.game_date+timedelta(hours=2))
+    ev.add("dtstart", game.game_date)
+    ev.add("dtend", game.game_date+timedelta(hours=2))
 
     if game.location:
         ev.add("location", game.location)
@@ -150,7 +154,7 @@ def parse_korean_datetime(text: str, year: int = 2026):
     hour = int(m.group(3))
     minute = int(m.group(4))
 
-    return datetime(year, month, day, hour, minute)
+    return datetime(year, month, day, hour, minute, tzinfo=ZoneInfo("Asia/Seoul"))
 
 
 def main() -> None:
