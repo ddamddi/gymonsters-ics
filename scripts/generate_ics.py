@@ -116,8 +116,9 @@ def add_event(cal: Calendar, game: Game) -> None:
     ev.add("uid", make_uid(game))
     ev.add("summary", f"{game.away_team} vs {game.home_team} [{game.league_year} {game.league}]")
 
-    ev.add("dtstart", game.game_date)
-    ev.add("dtend", game.game_date+timedelta(hours=2))
+    ev.add("dtstamp", datetime.utcnow().strftime("%Y%m%dT%H%M%SZ"))
+    ev.add("dtstart;TZID=Asia/Seoul", game.game_date)
+    ev.add("dtend;TZID=Asia/Seoul", game.game_date+timedelta(hours=2))
 
     if game.location:
         ev.add("location", game.location)
