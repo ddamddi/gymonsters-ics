@@ -71,7 +71,6 @@ def parse_games(team_name: str, url: str) -> list[Game]:
     soup = BeautifulSoup(html, "lxml")
 
     rows = soup.select("table.game_table tr")[1:]
-    # print(rows)
 
     games: list[Game] = []
     for row in rows:
@@ -86,10 +85,10 @@ def parse_games(team_name: str, url: str) -> list[Game]:
         teams = cols[3].select(".team_name")
         scores = cols[3].select(".score")
         team1 = teams[0].get_text(strip=True)
-        score1 = scores[0].get_text(strip=True)
+        score1 = scores[0].get_text(strip=True) or None
 
         team2 = teams[1].get_text(strip=True)
-        score2 = scores[1].get_text(strip=True)
+        score2 = scores[1].get_text(strip=True) or None
 
         link = cols[4].select_one("a")["href"]
 
@@ -123,7 +122,18 @@ def make_uid(game: Game) -> str:
 def add_event(cal: Calendar, game: Game) -> None:
     ev = Event()
     ev.add("uid", make_uid(game))
-    ev.add("summary", f"{game.away_team} {game.away_score} vs {game.home_score} {game.home_team} [{game.league_year} {game.league}]")
+    
+    summary_parts = [
+        game.away_team,
+        game.away_score,
+        "vs",
+        game.home_score,
+        game.home_team,
+        f"[{game.league_year} {game.league}]"
+    ]
+    summary = " ".join(filter(None, summary_parts))
+    ev.add("summary", summary)
+
 
     ev.add("dtstamp", datetime.utcnow())
     ev.add("dtstart", game.game_date)
