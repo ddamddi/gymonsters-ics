@@ -35,8 +35,8 @@ TEAMS = {
 }
 
 slug_map = {
-    "GY몬스터즈": "gymonsters_2026.ics",
-    "GY몬스터즈B": "gymonstersB_2026.ics",
+    "GY몬스터즈": "gymonsters.ics",
+    "GY몬스터즈B": "gymonstersB.ics",
 }
 
 OUT_DIR = Path("docs")
@@ -135,6 +135,7 @@ def write_calendar(team_name: str, games: Iterable[Game]) -> None:
     cal = Calendar()
     cal.add("version", "2.0")
     cal.add("prodid", f"-//{team_name} Game Schedule//EN")
+    cal.add("X-WR-CALNAME", f"{team_name}")
     for game in games:
         add_event(cal, game)
 
