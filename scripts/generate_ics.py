@@ -48,7 +48,9 @@ class Game:
     league_year: int | None
     league: str | None
     away_team: str
+    away_score: str | None
     home_team: str
+    home_score: str | None
     game_date: date
     location: str | None
     description: str | None
@@ -69,20 +71,25 @@ def parse_games(team_name: str, url: str) -> list[Game]:
     soup = BeautifulSoup(html, "lxml")
 
     rows = soup.select("table.game_table tr")[1:]
+    # print(rows)
 
     games: list[Game] = []
     for row in rows:
         cols = row.select("td")
 
         date = cols[0].get_text(strip=True)
-        parsed_date = parse_korean_datetime(date)
+        parsed_date = parse_datetime(date)
 
         league = cols[1].get_text(strip=True)
         location = cols[2].get_text(strip=True)
         
         teams = cols[3].select(".team_name")
+        scores = cols[3].select(".score")
         team1 = teams[0].get_text(strip=True)
+        score1 = scores[0].get_text(strip=True)
+
         team2 = teams[1].get_text(strip=True)
+        score2 = scores[1].get_text(strip=True)
 
         link = cols[4].select_one("a")["href"]
 
@@ -94,7 +101,9 @@ def parse_games(team_name: str, url: str) -> list[Game]:
                 league_year=YEAR,
                 league=league,
                 away_team=team1,
+                away_score=score1,
                 home_team=team2,
+                home_score=score2,
                 game_date=parsed_date,                
                 location=location,
                 description=description,
@@ -114,11 +123,8 @@ def make_uid(game: Game) -> str:
 def add_event(cal: Calendar, game: Game) -> None:
     ev = Event()
     ev.add("uid", make_uid(game))
-    ev.add("summary", f"{game.away_team} vs {game.home_team} [{game.league_year} {game.league}]")
+    ev.add("summary", f"{game.away_team} {game.away_score} vs {game.home_score} {game.home_team} [{game.league_year} {game.league}]")
 
-    # ev.add("dtstamp", datetime.utcnow().strftime("%Y%m%dT%H%M%SZ"))
-    # ev.add("dtstart;TZID=Asia/Seoul", game.game_date)
-    # ev.add("dtend;TZID=Asia/Seoul", game.game_date+timedelta(hours=2))
     ev.add("dtstamp", datetime.utcnow())
     ev.add("dtstart", game.game_date)
     ev.add("dtend", game.game_date+timedelta(hours=2))
@@ -143,7 +149,7 @@ def write_calendar(team_name: str, games: Iterable[Game]) -> None:
     path.write_bytes(cal.to_ical())
 
 
-def parse_korean_datetime(text: str, year: int = 2026):
+def parse_datetime(text: str, year: int = 2026, timezone=KST):
     m = re.search(r"(\d{2})월(\d{2})일.*?(\d{2}):(\d{2})", text)
     if not m:
         return None
@@ -153,13 +159,13 @@ def parse_korean_datetime(text: str, year: int = 2026):
     hour = int(m.group(3))
     minute = int(m.group(4))
 
-    return datetime(year, month, day, hour, minute, tzinfo=KST)
+    return datetime(year, month, day, hour, minute, tzinfo=timezone)
 
 
 def main() -> None:
     for team_name, url in TEAMS.items():
         games = parse_games(team_name, url)
-        print(f"{team_name} games:", games)
+        # print(f"{team_name} games:", games)
 
         write_calendar(team_name, games)
 
