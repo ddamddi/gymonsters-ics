@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:Polaris 11 vs 3 GY몬스터즈B [2026 토요리그 (C조)]
 DTSTART;TZID=Asia/Seoul:20260131T153000
 DTEND;TZID=Asia/Seoul:20260131T173000
-DTSTAMP:20260326T031108Z
+DTSTAMP:20260329T020417Z
 UID:569c1e06d1d8875c@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1681447
@@ -17,7 +17,7 @@ SUMMARY:농협캐피탈 나누미야구단 18 vs 11 GY몬스터즈B [2026
  토요리그 (C조)]
 DTSTART;TZID=Asia/Seoul:20260307T071000
 DTEND;TZID=Asia/Seoul:20260307T091000
-DTSTAMP:20260326T031108Z
+DTSTAMP:20260329T020417Z
 UID:54ad805b8e3c56e8@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1692276
@@ -27,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:Polaris 11 vs 6 GY몬스터즈B [2026 토요리그 (C조)]
 DTSTART;TZID=Asia/Seoul:20260321T190000
 DTEND;TZID=Asia/Seoul:20260321T210000
-DTSTAMP:20260326T031108Z
+DTSTAMP:20260329T020417Z
 UID:2ff2936835e4c7ce@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1692566
@@ -37,7 +37,7 @@ BEGIN:VEVENT
 SUMMARY:GY몬스터즈B vs 리얼위세바세 [2026 토요리그 (C조)]
 DTSTART;TZID=Asia/Seoul:20260404T130000
 DTEND;TZID=Asia/Seoul:20260404T150000
-DTSTAMP:20260326T031108Z
+DTSTAMP:20260329T020417Z
 UID:1fbb20b8e4bc7d72@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702776
@@ -48,7 +48,7 @@ SUMMARY:농협캐피탈 나누미야구단 vs GY몬스터즈B [2026 토요
  리그 (C조)]
 DTSTART;TZID=Asia/Seoul:20260418T130000
 DTEND;TZID=Asia/Seoul:20260418T150000
-DTSTAMP:20260326T031108Z
+DTSTAMP:20260329T020417Z
 UID:6f5e144dbb187fdd@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702798
@@ -58,7 +58,7 @@ BEGIN:VEVENT
 SUMMARY:GY몬스터즈B vs 팀 사야이 [2026 토요리그 (C조)]
 DTSTART;TZID=Asia/Seoul:20260516T123000
 DTEND;TZID=Asia/Seoul:20260516T143000
-DTSTAMP:20260326T031108Z
+DTSTAMP:20260329T020417Z
 UID:6379a58058110bb1@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702825
@@ -68,7 +68,7 @@ BEGIN:VEVENT
 SUMMARY:다슬기스 YB vs GY몬스터즈B [2026 토요리그 (C조)]
 DTSTART;TZID=Asia/Seoul:20260523T150000
 DTEND;TZID=Asia/Seoul:20260523T170000
-DTSTAMP:20260326T031108Z
+DTSTAMP:20260329T020417Z
 UID:41a738df396e5d29@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702833
@@ -78,7 +78,7 @@ BEGIN:VEVENT
 SUMMARY:벅스 vs GY몬스터즈B [2026 토요리그 (C조)]
 DTSTART;TZID=Asia/Seoul:20260530T150000
 DTEND;TZID=Asia/Seoul:20260530T170000
-DTSTAMP:20260326T031108Z
+DTSTAMP:20260329T020417Z
 UID:3c15faa2ebd6e033@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702838
@@ -88,7 +88,7 @@ BEGIN:VEVENT
 SUMMARY:GY몬스터즈B vs 스웨인즈 [2026 토요리그 (C조)]
 DTSTART;TZID=Asia/Seoul:20260606T170000
 DTEND;TZID=Asia/Seoul:20260606T190000
-DTSTAMP:20260326T031108Z
+DTSTAMP:20260329T020417Z
 UID:dbda8c6a9ae76f8f@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702851
@@ -98,7 +98,7 @@ BEGIN:VEVENT
 SUMMARY:GY몬스터즈B vs 시카고컵스2 [2026 토요리그 (C조)]
 DTSTART;TZID=Asia/Seoul:20260718T130000
 DTEND;TZID=Asia/Seoul:20260718T150000
-DTSTAMP:20260326T031108Z
+DTSTAMP:20260329T020417Z
 UID:f35ef58c14b2f12d@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702899
@@ -108,7 +108,7 @@ BEGIN:VEVENT
 SUMMARY:사구홀릭 vs GY몬스터즈B [2026 토요리그 (C조)]
 DTSTART;TZID=Asia/Seoul:20260822T190000
 DTEND;TZID=Asia/Seoul:20260822T210000
-DTSTAMP:20260326T031108Z
+DTSTAMP:20260329T020417Z
 UID:1f60130d82f44ced@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702936
@@ -118,7 +118,7 @@ BEGIN:VEVENT
 SUMMARY:GY몬스터즈B vs 글로 베어스 [2026 토요리그 (C조)]
 DTSTART;TZID=Asia/Seoul:20260912T070000
 DTEND;TZID=Asia/Seoul:20260912T090000
-DTSTAMP:20260326T031108Z
+DTSTAMP:20260329T020417Z
 UID:78054873a2fce8d4@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1702955
