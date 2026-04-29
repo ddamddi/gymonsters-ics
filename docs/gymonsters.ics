@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:GY몬스터즈 7 vs 7 Slayers [2026 토요리그 (B조)]
 DTSTART;TZID=Asia/Seoul:20260228T141000
 DTEND;TZID=Asia/Seoul:20260228T161000
-DTSTAMP:20260426T022546Z
+DTSTAMP:20260429T025413Z
 UID:83cd3476a92ca406@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1692237
@@ -17,7 +17,7 @@ SUMMARY:한국은행 야구부 0 vs 7 GY몬스터즈 [2026 토요리그 (B
  조)]
 DTSTART;TZID=Asia/Seoul:20260314T190000
 DTEND;TZID=Asia/Seoul:20260314T210000
-DTSTAMP:20260426T022546Z
+DTSTAMP:20260429T025413Z
 UID:b64a8804cde18263@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1692284
@@ -28,7 +28,7 @@ SUMMARY:GY몬스터즈 4 vs 11 돌멩이야구단 B [2026 토요리그 (B
  조)]
 DTSTART;TZID=Asia/Seoul:20260328T150000
 DTEND;TZID=Asia/Seoul:20260328T170000
-DTSTAMP:20260426T022546Z
+DTSTAMP:20260429T025413Z
 UID:520f80b7941f59ac@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1692304
@@ -39,7 +39,7 @@ SUMMARY:G-Dragon baseball team 12 vs 2 GY몬스터즈 [2026 토요리그 (
  B조)]
 DTSTART;TZID=Asia/Seoul:20260411T130000
 DTEND;TZID=Asia/Seoul:20260411T150000
-DTSTAMP:20260426T022546Z
+DTSTAMP:20260429T025413Z
 UID:23490aedb5462390@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1702785
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:GY몬스터즈 vs 마에스트로 [2026 토요리그 (B조)]
 DTSTART;TZID=Asia/Seoul:20260502T150000
 DTEND;TZID=Asia/Seoul:20260502T170000
-DTSTAMP:20260426T022546Z
+DTSTAMP:20260429T025413Z
 UID:9e5faa0cf044ebd0@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1702808
@@ -59,7 +59,7 @@ BEGIN:VEVENT
 SUMMARY:외대 베테랑스 vs GY몬스터즈 [2026 토요리그 (B조)]
 DTSTART;TZID=Asia/Seoul:20260523T130000
 DTEND;TZID=Asia/Seoul:20260523T150000
-DTSTAMP:20260426T022546Z
+DTSTAMP:20260429T025413Z
 UID:384a8425005ebfbb@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1702832
@@ -70,7 +70,7 @@ SUMMARY:GY몬스터즈 vs 사자후 허슬러스 [2026 토요리그 (B조)
  ]
 DTSTART;TZID=Asia/Seoul:20260620T170000
 DTEND;TZID=Asia/Seoul:20260620T190000
-DTSTAMP:20260426T022546Z
+DTSTAMP:20260429T025413Z
 UID:454b1337fab9330c@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1702869
@@ -81,7 +81,7 @@ SUMMARY:놀음꾼들(Gamebler's) vs GY몬스터즈 [2026 토요리그 (B
  조)]
 DTSTART;TZID=Asia/Seoul:20260627T170000
 DTEND;TZID=Asia/Seoul:20260627T190000
-DTSTAMP:20260426T022546Z
+DTSTAMP:20260429T025413Z
 UID:9207052ebe8db08d@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1702874
@@ -91,7 +91,7 @@ BEGIN:VEVENT
 SUMMARY:마에스트로 vs GY몬스터즈 [2026 토요리그 (B조)]
 DTSTART;TZID=Asia/Seoul:20260704T070000
 DTEND;TZID=Asia/Seoul:20260704T090000
-DTSTAMP:20260426T022546Z
+DTSTAMP:20260429T025413Z
 UID:fc8978e5f2923c87@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1702884
@@ -101,7 +101,7 @@ BEGIN:VEVENT
 SUMMARY:돌멩이야구단 B vs GY몬스터즈 [2026 토요리그 (B조)]
 DTSTART;TZID=Asia/Seoul:20260725T070000
 DTEND;TZID=Asia/Seoul:20260725T090000
-DTSTAMP:20260426T022546Z
+DTSTAMP:20260429T025413Z
 UID:1085fbcbfbfe9faa@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1702903
@@ -111,7 +111,7 @@ BEGIN:VEVENT
 SUMMARY:GY몬스터즈 vs 팀 어벤져스 [2026 토요리그 (B조)]
 DTSTART;TZID=Asia/Seoul:20260829T150000
 DTEND;TZID=Asia/Seoul:20260829T170000
-DTSTAMP:20260426T022546Z
+DTSTAMP:20260429T025413Z
 UID:34fb5e7655235733@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1702944
@@ -121,7 +121,7 @@ BEGIN:VEVENT
 SUMMARY:Chicago Cubs vs GY몬스터즈 [2026 토요리그 (B조)]
 DTSTART;TZID=Asia/Seoul:20260905T070000
 DTEND;TZID=Asia/Seoul:20260905T090000
-DTSTAMP:20260426T022546Z
+DTSTAMP:20260429T025413Z
 UID:a829e9ff3b942b18@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1702947
