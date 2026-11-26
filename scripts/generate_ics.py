@@ -77,7 +77,7 @@ def parse_games(team_name: str, url: str) -> list[Game]:
         cols = row.select("td")
 
         date = cols[0].get_text(strip=True)
-        parsed_date = parse_datetime(date)
+        parsed_date = parse_datetime(date, year=YEAR)
 
         league = cols[1].get_text(strip=True)
         location = cols[2].get_text(strip=True)
