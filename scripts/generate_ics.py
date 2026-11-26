@@ -27,11 +27,11 @@ session = requests.Session()
 session.mount("https://", CustomSSLAdapter())
 
 KST = ZoneInfo("Asia/Seoul")
-YEAR = 2026
+YEAR = 2027
 
 TEAMS = {
-    "GY몬스터즈": "https://www.gameone.kr/club/info/schedule/table?club_idx=41381",
-    "GY몬스터즈B": "https://www.gameone.kr/club/info/schedule/table?club_idx=44558",
+    "GY몬스터즈": f"https://www.gameone.kr/club/info/schedule/table?club_idx=41381&season={YEAR}",
+    "GY몬스터즈B": f"https://www.gameone.kr/club/info/schedule/table?club_idx=44558&season={YEAR}",
 }
 
 slug_map = {
@@ -39,7 +39,7 @@ slug_map = {
     "GY몬스터즈B": "gymonstersB.ics",
 }
 
-OUT_DIR = Path("docs")
+OUT_DIR = Path(f"docs/{YEAR}")
 OUT_DIR.mkdir(exist_ok=True)
 
 
