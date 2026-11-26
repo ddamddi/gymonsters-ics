@@ -3,8 +3,7 @@ name: Update ICS
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 0'  # Every Sunday 9AM (KST)
-    - cron: '0 0 * * 3'  # Every Wednesday 9AM (KST)
+    - cron: '0 0,12 * * *'  # Every day 9AM, 9PM (KST)
 
 permissions:
   contents: write
