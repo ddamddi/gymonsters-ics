@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:놀음꾼들(Gamebler's) vs GYB [2027 토요리그(C조)]
 DTSTART;TZID=Asia/Seoul:20270213T170000
 DTEND;TZID=Asia/Seoul:20270213T190000
-DTSTAMP:20261126T123505Z
+DTSTAMP:20261127T071139Z
 UID:ecc51ba2ec3f8582@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1724712
@@ -16,7 +16,7 @@ BEGIN:VEVENT
 SUMMARY:GYB vs 다슬기스 YB [2027 토요리그(C조)]
 DTSTART;TZID=Asia/Seoul:20270227T150000
 DTEND;TZID=Asia/Seoul:20270227T170000
-DTSTAMP:20261126T123505Z
+DTSTAMP:20261127T071139Z
 UID:2f92dd6a6d6cf9a3@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1724727
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:GYB vs 시카고컵스2 [2027 토요리그(C조)]
 DTSTART;TZID=Asia/Seoul:20270306T150000
 DTEND;TZID=Asia/Seoul:20270306T170000
-DTSTAMP:20261126T123505Z
+DTSTAMP:20261127T071139Z
 UID:4922e6278337b5ff@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1724735
@@ -36,7 +36,7 @@ BEGIN:VEVENT
 SUMMARY:Mavericks vs GYB [2027 토요리그(C조)]
 DTSTART;TZID=Asia/Seoul:20270320T070000
 DTEND;TZID=Asia/Seoul:20270320T090000
-DTSTAMP:20261126T123505Z
+DTSTAMP:20261127T071139Z
 UID:242f949a441e605b@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1724750
@@ -46,7 +46,7 @@ BEGIN:VEVENT
 SUMMARY:카르텔즈 vs GYB [2027 토요리그(C조)]
 DTSTART;TZID=Asia/Seoul:20270403T150000
 DTEND;TZID=Asia/Seoul:20270403T170000
-DTSTAMP:20261126T123505Z
+DTSTAMP:20261127T071139Z
 UID:8a62c13ab9fdbb1c@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1724772
@@ -56,7 +56,7 @@ BEGIN:VEVENT
 SUMMARY:GYB vs 글로 베어스 [2027 토요리그(C조)]
 DTSTART;TZID=Asia/Seoul:20270424T070000
 DTEND;TZID=Asia/Seoul:20270424T090000
-DTSTAMP:20261126T123505Z
+DTSTAMP:20261127T071139Z
 UID:32f4d393de642abf@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1724795
@@ -66,7 +66,7 @@ BEGIN:VEVENT
 SUMMARY:S. Bastards vs GYB [2027 토요리그(C조)]
 DTSTART;TZID=Asia/Seoul:20270501T150000
 DTEND;TZID=Asia/Seoul:20270501T170000
-DTSTAMP:20261126T123505Z
+DTSTAMP:20261127T071139Z
 UID:0f1aadbef465dc2c@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1724808
@@ -76,7 +76,7 @@ BEGIN:VEVENT
 SUMMARY:한국은행 야구부 vs GYB [2027 토요리그(C조)]
 DTSTART;TZID=Asia/Seoul:20270529T070000
 DTEND;TZID=Asia/Seoul:20270529T090000
-DTSTAMP:20261126T123505Z
+DTSTAMP:20261127T071139Z
 UID:0362cca670d0a206@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1724838
@@ -86,7 +86,7 @@ BEGIN:VEVENT
 SUMMARY:다슬기스 YB vs GYB [2027 토요리그(C조)]
 DTSTART;TZID=Asia/Seoul:20270619T170000
 DTEND;TZID=Asia/Seoul:20270619T190000
-DTSTAMP:20261126T123505Z
+DTSTAMP:20261127T071139Z
 UID:dbadefa15126744c@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1724870
@@ -96,7 +96,7 @@ BEGIN:VEVENT
 SUMMARY:GYB vs 벅스 [2027 토요리그(C조)]
 DTSTART;TZID=Asia/Seoul:20270626T070000
 DTEND;TZID=Asia/Seoul:20270626T090000
-DTSTAMP:20261126T123505Z
+DTSTAMP:20261127T071139Z
 UID:5666ebbd9438e28b@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1724873
@@ -106,7 +106,7 @@ BEGIN:VEVENT
 SUMMARY:GYB vs 스웨인즈 [2027 토요리그(C조)]
 DTSTART;TZID=Asia/Seoul:20270717T190000
 DTEND;TZID=Asia/Seoul:20270717T210000
-DTSTAMP:20261126T123505Z
+DTSTAMP:20261127T071139Z
 UID:741592767dea54f5@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1724903
@@ -116,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:GYB vs Mavericks [2027 토요리그(C조)]
 DTSTART;TZID=Asia/Seoul:20270724T130000
 DTEND;TZID=Asia/Seoul:20270724T150000
-DTSTAMP:20261126T123505Z
+DTSTAMP:20261127T071139Z
 UID:832be91d0630f362@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  4558&game_idx=1724906
