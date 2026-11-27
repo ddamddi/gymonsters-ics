@@ -6,7 +6,7 @@ BEGIN:VEVENT
 SUMMARY:GY몬스터즈 vs Slayers [2027 토요리그(B조)]
 DTSTART;TZID=Asia/Seoul:20270220T073000
 DTEND;TZID=Asia/Seoul:20270220T093000
-DTSTAMP:20261127T071139Z
+DTSTAMP:20261127T204733Z
 UID:2e3a96bf7e3b4585@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1724715
@@ -16,7 +16,7 @@ BEGIN:VEVENT
 SUMMARY:GY몬스터즈 vs 서강 알바트로스 [2027 토요리그(B조)]
 DTSTART;TZID=Asia/Seoul:20270327T130000
 DTEND;TZID=Asia/Seoul:20270327T150000
-DTSTAMP:20261127T071139Z
+DTSTAMP:20261127T204733Z
 UID:d2b1f2df66649c7b@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1724761
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:GY몬스터즈 vs 돌멩이야구단 D [2027 토요리그(B조)]
 DTSTART;TZID=Asia/Seoul:20270410T170000
 DTEND;TZID=Asia/Seoul:20270410T190000
-DTSTAMP:20261127T071139Z
+DTSTAMP:20261127T204733Z
 UID:515a700546808702@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1724782
@@ -36,7 +36,7 @@ BEGIN:VEVENT
 SUMMARY:Slayers vs GY몬스터즈 [2027 토요리그(B조)]
 DTSTART;TZID=Asia/Seoul:20270417T130000
 DTEND;TZID=Asia/Seoul:20270417T150000
-DTSTAMP:20261127T071139Z
+DTSTAMP:20261127T204733Z
 UID:4aa4af406f73a9ef@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1724787
@@ -46,7 +46,7 @@ BEGIN:VEVENT
 SUMMARY:외대 베테랑스 vs GY몬스터즈 [2027 토요리그(B조)]
 DTSTART;TZID=Asia/Seoul:20270508T130000
 DTEND;TZID=Asia/Seoul:20270508T150000
-DTSTAMP:20261127T071139Z
+DTSTAMP:20261127T204733Z
 UID:b422f4aa285e8fff@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1724815
@@ -56,7 +56,7 @@ BEGIN:VEVENT
 SUMMARY:Polaris vs GY몬스터즈 [2027 토요리그(B조)]
 DTSTART;TZID=Asia/Seoul:20270515T170000
 DTEND;TZID=Asia/Seoul:20270515T190000
-DTSTAMP:20261127T071139Z
+DTSTAMP:20261127T204733Z
 UID:4cbd9216a5712ce8@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1724828
@@ -66,7 +66,7 @@ BEGIN:VEVENT
 SUMMARY:GY몬스터즈 vs Team Raptors [2027 토요리그(B조)]
 DTSTART;TZID=Asia/Seoul:20270605T170000
 DTEND;TZID=Asia/Seoul:20270605T190000
-DTSTAMP:20261127T071139Z
+DTSTAMP:20261127T204733Z
 UID:27cd00115c1128bb@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1724852
@@ -76,7 +76,7 @@ BEGIN:VEVENT
 SUMMARY:GY몬스터즈 vs G-Dragon baseball team [2027 토요리그(B조)]
 DTSTART;TZID=Asia/Seoul:20270612T070000
 DTEND;TZID=Asia/Seoul:20270612T090000
-DTSTAMP:20261127T071139Z
+DTSTAMP:20261127T204733Z
 UID:851607323cfceb16@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1724855
@@ -86,7 +86,7 @@ BEGIN:VEVENT
 SUMMARY:Chicago Cubs vs GY몬스터즈 [2027 토요리그(B조)]
 DTSTART;TZID=Asia/Seoul:20270619T150000
 DTEND;TZID=Asia/Seoul:20270619T170000
-DTSTAMP:20261127T071139Z
+DTSTAMP:20261127T204733Z
 UID:4c9c1b8ff4001e96@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1724868
@@ -97,7 +97,7 @@ SUMMARY:GY몬스터즈 vs Davids 야구 선교단 [2027 토요리그(B조)
  ]
 DTSTART;TZID=Asia/Seoul:20270703T070000
 DTEND;TZID=Asia/Seoul:20270703T090000
-DTSTAMP:20261127T071139Z
+DTSTAMP:20261127T204733Z
 UID:3121b3e93c7681f5@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1724882
@@ -107,7 +107,7 @@ BEGIN:VEVENT
 SUMMARY:서강 알바트로스 vs GY몬스터즈 [2027 토요리그(B조)]
 DTSTART;TZID=Asia/Seoul:20270710T130000
 DTEND;TZID=Asia/Seoul:20270710T150000
-DTSTAMP:20261127T071139Z
+DTSTAMP:20261127T204733Z
 UID:5f6c39f5be0586ec@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1724894
@@ -118,7 +118,7 @@ SUMMARY:Davids 야구 선교단 vs GY몬스터즈 [2027 토요리그(B조)
  ]
 DTSTART;TZID=Asia/Seoul:20270807T070000
 DTEND;TZID=Asia/Seoul:20270807T090000
-DTSTAMP:20261127T071139Z
+DTSTAMP:20261127T204733Z
 UID:36d5f7184732001b@gymonsters-ics
 DESCRIPTION:https://www.gameone.kr//club/info/schedule/boxscore?club_idx=4
  1381&game_idx=1724922
